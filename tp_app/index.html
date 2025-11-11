@@ -1,3 +1,32 @@
+CREATE DATABASE sistema_asistencia;
+ USE sistema_asistencia;
+CREATE TABLE alumnos (
+  id INT PRIMARY KEY,
+  apellido VARCHAR(50) NOT NULL,
+  nombre VARCHAR(50) NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
+INSERT INTO alumnos (id, apellido, nombre) VALUES
+     (2, "Aguilar", "Victor"),
+     (3, "Albina", "Agustin"),
+     (4, "Alvarez", "Ariel"),
+     (5, "Apaza", "Leonel");
+
+
+
+
+
+
+
+
+-ES SQL- ARRIBA 
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,4 +53,5 @@
 
  
 </body>
+
 </html>
