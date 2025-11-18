@@ -14,7 +14,16 @@ INSERT INTO alumnos (id, apellido, nombre) VALUES
      (4, "Alvarez", "Ariel"),
      (5, "Apaza", "Leonel");
 
+INSERT INTO cursos (anio, division, especialidad) VALUES
+  ("4", "3", "Computacion"); 
 
+
+CREATE TABLE cursos (   
+   id INT PRIMARY KEY AUTO_INCREMENT,    
+    anio VARCHAR(10),      
+    division VARCHAR(10),            
+    especialidad VARCHAR(100)    
+     );
 
 
 
@@ -93,3 +102,4 @@ INSERT INTO alumnos (id, apellido, nombre) VALUES
 </body>
 
 </html>
+
