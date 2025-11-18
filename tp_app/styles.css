@@ -17,3 +17,24 @@ table {
 margin-top: 10px;
 
 }
+
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.bloque {
+    width: 45%;
+}
+
+
+.bloqueizquierda {
+    text-align: left;
+}
+
+.bloquederecha {
+    text-align: right;
+}
